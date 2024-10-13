@@ -9,5 +9,6 @@ find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 file(GLOB_RECURSE SOURCES src/*.cpp)
 add_executable(SolarSystem main.cpp ${SOURCES})
+file(COPY assets DESTINATION ${CMAKE_BINARY_DIR})
 
 target_link_libraries(SolarSystem sfml-graphics sfml-window sfml-system)

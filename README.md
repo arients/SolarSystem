@@ -47,7 +47,7 @@ A C++ simulation of the solar system using SFML for graphical rendering. This pr
 ### Project Structure
 - src/: Source code files. 
 - include/: Header files. 
-- assets/: Assets like fonts or images (if any). 
+- assets/: Assets like fonts or images. 
 - CMakeLists.txt: Build configuration. 
 - README.md: Project documentation.
 

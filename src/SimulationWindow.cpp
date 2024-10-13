@@ -12,7 +12,7 @@ SimulationWindow::SimulationWindow() {
     window.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Orbital Simulation");
     window.setFramerateLimit(60);
 
-    if (!font.loadFromFile("/System/Library/Fonts/Geneva.ttf")) {
+    if (!font.loadFromFile("assets/Geneva.ttf")) {
         std::cout << "Error loading font\n";
     }
 
