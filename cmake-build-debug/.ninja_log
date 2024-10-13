@@ -1,0 +1,15 @@
+# ninja log v6
+6	300	1728860578400626786	CMakeFiles/SolarSystem.dir/src/SimulationWindow.cpp.o	58ff3e0349beb39c
+13	498	1728860403851600209	CMakeFiles/SolarSystem.dir/src/Date.cpp.o	63ed5708d5d42226
+6	274	1728750389363332279	src/CMakeFiles/MyLib.dir/Date.cpp.o	c950e3bca9d8cd67
+6	35	1728750389363635576	src/CMakeFiles/MyLib.dir/Object.cpp.o	38e5be6b2cdeb90
+14	546	1728860403852288421	CMakeFiles/SolarSystem.dir/src/Tools.cpp.o	8fc7d461227ad29f
+274	345	1728750389631026653	src/libMyLib.a	8910a28aa2d34934
+14	499	1728860403852517672	CMakeFiles/SolarSystem.dir/src/Vector3ld.cpp.o	18596224da6c0fe5
+13	558	1728860403851794918	CMakeFiles/SolarSystem.dir/src/Object.cpp.o	2adec1100ed7e779
+1	47	1728860784575612553	build.ninja	602fd0c697a173c0
+301	328	1728860578695079195	SolarSystem	28185f159abc31bb
+7	35	1728750389363934080	src/CMakeFiles/MyLib.dir/Vector3ld.cpp.o	e2e61e00abdf3d6c
+6	35	1728750389363796578	src/CMakeFiles/MyLib.dir/PlanetarySystem.cpp.o	ff940bca289c4b8c
+13	572	1728860403851282458	CMakeFiles/SolarSystem.dir/main.cpp.o	b61e4f3074641fdd
+13	603	1728860403851934169	CMakeFiles/SolarSystem.dir/src/PlanetarySystem.cpp.o	97d47c648c73ff24
