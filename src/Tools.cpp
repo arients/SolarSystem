@@ -1,5 +1,5 @@
 #include "Tools.hpp"
-#include <Parameters.hpp>
+#include "Parameters.hpp"
 
 // Converts astronomical units to pixels
 Vector3ld Tools::AU_to_pixels(const Vector3ld& p) {
