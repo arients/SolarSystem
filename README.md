@@ -12,7 +12,7 @@ A C++ simulation of the solar system using SFML for graphical rendering. This pr
 
 ## Demo
 
-(Include screenshots or GIFs here to showcase your simulation.)
+![Solar System Simulation Screenshot](assets/screenshot.png)
 
 ## Requirements
 
@@ -50,5 +50,3 @@ A C++ simulation of the solar system using SFML for graphical rendering. This pr
 - assets/: Assets like fonts or images. 
 - CMakeLists.txt: Build configuration. 
 - README.md: Project documentation.
-
-![Solar System Simulation Screenshot](assets/screenshot.png)
