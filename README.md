@@ -10,9 +10,25 @@ A C++ simulation of the solar system using SFML for graphical rendering. This pr
 - **Keyboard Controls**: Move around the simulation using arrow keys or W, A, S, D keys.
 - **Scalable Design**: Easily add or modify celestial objects in the simulation.
 
+## Simulation Accuracy
+The simulation uses the Runge-Kutta 4th order method for solving differential equations, which is known for its high accuracy in numerical computations. However, due to the following factors, the simulation still experiences a small margin of error:
+
+- Time Step: The accuracy of the orbits is influenced by the size of the time step used in the simulation. Larger time steps may result in less accurate orbital paths, especially over long periods. It is recommended to experiment with smaller time steps for more precise simulations.
+
+
+- Gravitational Constants: The gravitational constant and object masses are adjusted for scaling purposes, which can introduce minor deviations from real-world values.
+
+
+- Numerical Precision: The floating-point arithmetic used in the simulation may lead to minimal inaccuracies in position and velocity calculations, especially in long-running simulations.
+
+
+In general, the error margin is kept within acceptable limits for typical simulation durations (up to several simulated years). For more detailed studies or long-term accuracy, further refinements in time step control and precision tuning may be required.
+
 ## Demo
 
-(Include screenshots or GIFs here to showcase your simulation.)
+
+![Solar System Simulation Screenshot](assets/screenshot.png)
+
 
 ## Requirements
 
@@ -50,5 +66,3 @@ A C++ simulation of the solar system using SFML for graphical rendering. This pr
 - assets/: Assets like fonts or images. 
 - CMakeLists.txt: Build configuration. 
 - README.md: Project documentation.
-
-![Solar System Simulation Screenshot](assets/screenshot.png)
